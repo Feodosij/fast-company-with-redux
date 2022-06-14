@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { useHistory } from "react-router";
+import { useHistory } from "react-router-dom";
 import { useAuth } from "../../hooks/useAuth";
 const UserCard = ({ user }) => {
     const history = useHistory();
